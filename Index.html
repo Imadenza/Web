@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rubik:400,700"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-form">
+      <form action="cek_login.php" method="POST">
+        <h1>
+          <img src="IMG-20240905-WA0061.jpg" height="120px" width="120px" />
+          <p>Login Game</p>
+        </h1>
+        <div class="content">
+          <div class="input-field">
+            <input
+              type="number"
+              name="nik"
+              placeholder="Masukkan NIK"
+              required
+            />
+          </div>
+          <div class="input-field">
+            <input
+              type="text"
+              name="nama"
+              placeholder="Masukkan Password"
+              required
+            />
+          </div>
+          Klik Di Bawah Sini!
+        </div>
+        <div class="action">
+          <button
+            onclick="window.location.href='register.html'"
+            class="btn mr-2"
+          >
+            Saya Pengguna Baru
+          </button>
+          <button type="submit">Masuk</button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
